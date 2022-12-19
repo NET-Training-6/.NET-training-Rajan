@@ -3,22 +3,21 @@
 
     public static void Main()
     {
-            
-            Console.WriteLine("Enter the principle");
-            var p = float.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the time period");
-            var t = float.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the rate of interest");
-            var r = float.Parse(Console.ReadLine());
-            var i = p * t * r / 100;
-            Console.WriteLine(" The required SimpleInterest is" + i);
-            var a = p + i;
-            Console.WriteLine("The required amount is" +a);
-            Console.ReadLine();
 
-      }
-   
+        Console.WriteLine("Please enter a number");
+        var number = int.Parse(Console.ReadLine());
+        if (number % 3 == 0 && number % 5 == 0)
+        {
+            Console.WriteLine(number + " is divided by both 3 and 5 ");
+        }
+        else
+        {
+            Console.WriteLine(number + " is not divided by both 3 and 5 ");
+        }
+
     }
 
-    
+}
+
+
 
