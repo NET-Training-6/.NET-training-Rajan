@@ -4,16 +4,15 @@
     public static void Main()
     {
 
-        Console.WriteLine("Please enter a number");
-        var number = int.Parse(Console.ReadLine());
-        if (number % 3 == 0 && number % 5 == 0)
-        {
-            Console.WriteLine(number + " is divided by both 3 and 5 ");
-        }
-        else
-        {
-            Console.WriteLine(number + " is not divided by both 3 and 5 ");
-        }
+     Console.WriteLine("BMI Calculator");
+     Console.WriteLine("Enter the height in metrer");
+     var height = float.Parse(Console.ReadLine());
+     Console.WriteLine("Enter the weight in kg");
+     var weight = float.Parse(Console.ReadLine());
+     var bmi = weight / (height*height);
+     Console.WriteLine("The required BMI of the value is " + bmi );
+     Console.ReadLine();
+       
 
     }
 
