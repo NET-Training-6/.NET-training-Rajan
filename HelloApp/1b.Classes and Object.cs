@@ -25,7 +25,7 @@ class LandAnimal //Pascal casing=class,methood // Camel Casing = field
 
    public void Move()
     {
-
+        Console.WriteLine("Anima can move");
     }
 
 
