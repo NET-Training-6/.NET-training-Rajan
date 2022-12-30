@@ -3,10 +3,11 @@
 
     static void Main(string[] args)
     {
-        ConditionalLearner cl = new();
-        cl.IncPattern();
-        cl.DecPattern();
-        cl.HashPattern();
+        MethodLearner ml = new();
+        double[] numbersArray = {1,3,4,6,7};
+        ml.CalculateAverage(numbersArray);
+       
+
     }
 }
 
