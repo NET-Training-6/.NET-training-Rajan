@@ -4,9 +4,9 @@
 //public- has the highest visibility, anyone can get
 //private- opposite to public
 //internal- visility to project or assembly means yo particular project(hello app) bahek arule access garna sakdaina
-class car
+class Car
 {
-    public car()//constructor
+    public Car()//constructor
     {
        gears =5;
     }
@@ -21,11 +21,21 @@ class car
     void test()
     {
         //noOfWheels = 5;
-        car car1 = new();
-        car1.vendor = "Tesla";
+        Car Car1 = new();
+        Car1.vendor = "Tesla";
 
-        car.seats=34;
+        Car.seats=34;
 
         Console.WriteLine();
+
+        string name = "Kishan karki"; // Its initial is KK
+         var parts = name.Split(" ");
+         var initials = parts[0][0] + parts[1][0];
+
+         //I have a string value called address = "Tinkune, Kathmandu,Nepal"
+        // 1. Print country's locality
+        // 2. print city name
+
+        
     }
 }

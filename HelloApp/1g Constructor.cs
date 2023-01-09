@@ -1,5 +1,6 @@
 class Animal
 {
+    //COnstructor is made because field like noOfLegs, isDomestic can be easily accessed to 
     //default constructor
     public Animal()
     {
@@ -7,14 +8,14 @@ class Animal
     }
 
     // Parameterized constructor
-    public Animal(string an, bool id)
+    public Animal(string an, bool Domestic)
     {
        animalName = an;
-       isDomestic = id;
+       this.isDomestic = Domestic;
     }
     public string animalName;
     public int noOfLegs;
-    public bool isDomestic;
+    public bool isDomestic; //default value of boolean is false
 
 }
 
@@ -26,8 +27,11 @@ class Test
         //animal1.animalName = "Dog";
         //animal1.isDomestic = true;
 
-        Animal animal1 = new Animal("Dog", true);
         Animal animal2 = new();
+        Animal animal1 = new Animal("Dog", true);
+       
 
     }
 }
+
+//

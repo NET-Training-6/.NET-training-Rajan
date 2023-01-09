@@ -1,12 +1,13 @@
-﻿class Entrypoint
+﻿
+class Entrypoint
 {
-
-    static void Main(string[] args)
+    static void Main()
     {
-        MethodLearner ml = new();
-        double[] numbersArray = {1,3,4,6,7};
-        ml.CalculateAverage(numbersArray);
-       
+        
+
+        Paragraph1 para = new();
+        para.DisplayParagraphInfo();
+
 
     }
 }

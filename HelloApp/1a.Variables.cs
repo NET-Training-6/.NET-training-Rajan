@@ -1,5 +1,5 @@
 
-class variable{
+class Variable{
    // void learnVariable(){
     //   //Numbers:integers(without decimal), floating point,
     //   // Integers(BYTE,Short,int,) 
