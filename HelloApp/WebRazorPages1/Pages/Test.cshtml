@@ -1,0 +1,26 @@
+﻿@page
+<h1> Welcome to the first pages.</h1>
+
+<h3> Print numbers from 1 to 20</h3>
+@for(int i =1; i<=20; i++)
+{
+    <p>@i</p>
+}
+
+<h2> Printing even numbers between 1 to 100 </h2>
+@for(int i = 1; i<=100; i++)
+{
+    if(i%2==0)
+    {
+        <b> @i </b>
+    }
+}
+
+<h3> Print Numbers containing 9 in it from 1 to 100</h3>
+@for(int i =1; i<=100; i++)
+{
+    if (i.ToString().Contains("9"))
+    {
+        <b>@i</b>
+    }
+}
