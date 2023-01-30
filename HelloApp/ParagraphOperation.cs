@@ -80,6 +80,8 @@ class Paragraph1
 
     public void DisplayParagraphInfo()
     {
+        
+
         Console.WriteLine($"\n\nNo of Sentences : {noOfSentences}, No of words : {noOfWords}, No of characters : {noOfCharacters}");
     }
 }
