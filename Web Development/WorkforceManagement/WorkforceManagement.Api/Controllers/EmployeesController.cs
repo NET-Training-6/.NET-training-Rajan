@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WorkforceManagement.Web.Data;
+using WorkforceManagement.Web.Models;
 
 namespace WorkforceManagement.Api.Controllers;
 
@@ -25,6 +26,19 @@ public class EmployeesController : ControllerBase
             return NotFound($"Employee with id {id} does not exist.");
 
         return Ok(employee);
+    }
+
+    [HttpPost]
+    public IActionResult Post(Employee employee)
+    {
+        context.Employees.Add(employee);
+        context.SaveChanges();
+        return CreatedAction("api/employees/{employee.Id}",employee);
+    }
+
+    private IActionResult CreatedAction(string v, Employee employee)
+    {
+        throw new NotImplementedException();
     }
 }
 

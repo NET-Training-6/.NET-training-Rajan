@@ -10,7 +10,13 @@ using WorkforceManagement.Web.ViewModels;
 namespace WorkforceManagement.Web.Controllers;
 public class EmployeesController : Controller
 {
-    WorkforceContext db = new WorkforceContext();
+    WorkforceContext db;
+    public EmployeesController(WorkforceContext _db)
+    {
+        db = _db;;
+    }
+    //Hard coupling
+    // WorkforceContext db = new WorkforceContext();
 
     [HttpGet]
     public IActionResult Index()

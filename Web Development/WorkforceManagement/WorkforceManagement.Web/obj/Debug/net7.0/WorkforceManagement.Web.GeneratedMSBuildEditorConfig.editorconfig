@@ -16,6 +16,50 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\C#Project\.NET-training-Rajan\Web Development\WorkforceManagement\WorkforceManagement.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Auth/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Auth/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBc3NpZ25Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Auth/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Auth/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Departments/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/C\#Project/.NET-training-Rajan/Web Development/WorkforceManagement/WorkforceManagement.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

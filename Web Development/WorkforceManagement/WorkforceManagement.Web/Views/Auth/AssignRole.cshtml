@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model (IdentityUser User, List<string> assinedUserRoles, List<IdentityRole> AllRoles)
+
+<h3>Assign roles to user: @Model.User.UserName</h3>
+<form asp-action="AssignRole" method="post">
+    <input type="hidden" value="@Model.User.Id" name="userId"/>
+    @foreach (var role in Model.AllRoles)
+    {
+        var check = Model.assinedUserRoles.Contains(role.Name) ? "checked" : "";
+        <input type="checkbox" name="roles[]" value="@role.Name" @check /> @role.Name
+        <br />
+    }
+
+    <button class="btn btn-success" type="submit">Assign</button>
+</form>

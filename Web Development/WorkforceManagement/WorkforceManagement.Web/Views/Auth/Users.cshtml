@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model List<IdentityUser>
+
+<h3>All Users in the system</h3>
+<ol>
+    @foreach (var user in Model)
+    {
+        <li>
+            <a href="/auth/assignrole?userId=@user.Id">@user.UserName</a>
+        </li>
+    }
+</ol>

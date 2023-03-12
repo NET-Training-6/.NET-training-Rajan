@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WorkforceManagement.Web.Data;
 using WorkforceManagement.Web.Models;
 
 namespace WorkforceManagement.Web.Controllers;
 
+[Authorize(Roles = "Admin")]
 public class DepartmentsController : Controller
 {
     WorkforceContext db = new WorkforceContext();
